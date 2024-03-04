@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>ProjetoIMC</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>IMCServlet</display-name>
+    <servlet-name>IMCServlet</servlet-name>
+    <servlet-class>IMCServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IMCServlet</servlet-name>
+    <url-pattern>/IMCServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FahrenheitServlet</display-name>
+    <servlet-name>FahrenheitServlet</servlet-name>
+    <servlet-class>FahrenheitServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FahrenheitServlet</servlet-name>
+    <url-pattern>/FahrenheitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PitagorasServlet</display-name>
+    <servlet-name>PitagorasServlet</servlet-name>
+    <servlet-class>PitagorasServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PitagorasServlet</servlet-name>
+    <url-pattern>/PitagorasServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
